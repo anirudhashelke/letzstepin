@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import { FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { Link } from 'react-scroll'
 
 const icons=[
     <FaTwitter  />,
@@ -58,7 +59,7 @@ const Footer = () => {
                         <ul>
                             <h1 className='font-bold text-[18px] mb-3'>{values.heading}</h1>
                             {values.items.map((value,index)=>{
-                                return  <li key={index}><a className=' text-[#29D9E7] text-[14px] a_400' href="#">{value}</a></li>
+                                return  <li key={index}><Link className=' text-[#29D9E7] text-[14px] a_400' href="#">{value}</Link></li>
                             })}
                            
                         </ul>
