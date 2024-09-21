@@ -1,0 +1,13 @@
+li a{
+    color: #181818;
+    font-weight:600;
+    font-size: 15px;
+}
+li a:focus{
+    color: #36a2e0;
+    transition:0.3s;
+}
+/* mobile menu */
+.dark_bg{
+    background-color: #36a2e0;
+}

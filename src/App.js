@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css'
+import './responsive.css'
+import Navbar from './navbar/Navbar';
+import Banner from './components/banner/Banner';
+import About from './components/about/About';
+import Property from './components/property/Property';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
+// import Sign from './components/sign/Sign';
+// import Mode from './components/Mode';
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar />
+    <Banner />
+    <About />
+    <Property />
+    <Contact />
+    <Footer />
+    {/* <Sign /> */}
+    </>
+    // <Routes>
+    //       <Route path="/" element={<HomePage />} />
+    //       <Route path="/listing/:category" element={<ListingPage />} />
+    //       </Routes>
   );
 }
 
