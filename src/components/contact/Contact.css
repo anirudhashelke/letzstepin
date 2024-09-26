@@ -4,27 +4,3 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.a_contact .a_go_btn{
-    color: #36a2e0;
-    padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
-    border-radius: 25px;
-    font-size: 1rem;
-    font-weight: 700;
-}
-.a_contact input{
-    border-radius:25px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
-    padding: 10px;
-    outline: none;
-}
-.a_contact textarea{
-    outline: none;
-    border-radius: 8px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
-}
-.a_contact button{
-    border-radius: 25px;
-    padding: 10px 30px;
-    color: #fff;
-}

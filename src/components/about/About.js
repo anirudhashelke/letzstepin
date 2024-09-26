@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import { motion } from "framer-motion"
 const About = () => {
     const data = [
         {
@@ -46,14 +47,16 @@ const About = () => {
     return (
         <div className='container my-5 about'>
             <h1 className='text-[2rem] a_700 '>Get what you love!</h1>
-            <div className="row a_about mt-2 justify-around">
+            <motion.div initial={{ opacity: 0 }}
+                whileInView={{ opacity: 3 }}
+                transition={{ duration: 4 }} className="row a_about mt-2 justify-around">
                 {data.map(({ imgurl, title }, index) => {
                     return <div key={index} className='a_about_res w-[10%]'>
                         <img src={imgurl} width={48} alt="#" />
                         <h6 className='text-[13px] text-[#444444] a_600 mt-4'>{title}</h6>
                     </div>
                 })}
-            </div>
+            </motion.div>
         </div>
     )
 }
