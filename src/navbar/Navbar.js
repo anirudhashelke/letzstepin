@@ -42,7 +42,7 @@ const Navbar = () => {
         )}>
           <div className=' a_navbar_nav flex gap-5   lg:hidden  bg-[#212EA0] flex--cc  absolute left-0 top-0 h-screen  ps-16 pt-32  z-50  w-100 '>
             <IoClose onClick={() => { setOpen(false) }} className='absolute top-[20px] right-[10px]  text-[30px] text-[#fff] ' />
-            <ul className='a_navbar flex gap-[30px] '>
+            <ul className='a_navbar flex gap-[30px] a_navbar_box '>
               <li ><Link to={"/"} className='text-[#36a2e0]'>Home</Link></li>
               <li><Link to={"/About"} className='text-white' href="#">About </Link></li>
               <li><Link to={"/Work"} >Work</Link></li>

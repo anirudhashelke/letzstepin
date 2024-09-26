@@ -6,6 +6,9 @@
      gap:0 !important;
      display: block !important;
      }
+     .a_navbar li{
+      margin-bottom:20px !important;
+     }
      /* banner styling */
      .a_banner_super{
         display: block !important;
